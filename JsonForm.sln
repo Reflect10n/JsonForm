@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonForm", "JsonForm\JsonForm.csproj", "{42B79387-6A42-4DC2-A574-AD274C77AE6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42B79387-6A42-4DC2-A574-AD274C77AE6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B79387-6A42-4DC2-A574-AD274C77AE6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B79387-6A42-4DC2-A574-AD274C77AE6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B79387-6A42-4DC2-A574-AD274C77AE6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7181A39-AF27-46E2-B2FF-544CD84119B9}
+	EndGlobalSection
+EndGlobal
