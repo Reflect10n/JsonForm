@@ -1,0 +1,95 @@
+html {
+    font-size: 18px;
+    font-family: sans-serif;
+    position: relative;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+    margin: 0;
+    margin-bottom: 60px;
+    background: rgb(240, 240, 240);
+}
+
+.spanRequired {
+    color: red;
+}
+
+.personForm {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.submitElement {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.validation {
+    color: red;
+    font-size: 12px;
+}
+
+.header {
+    margin-top: 0;
+    background: #ff8f35;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.header-text {
+    font-size: 25px;
+}
+
+.submitBtn, .submitBtn-resend {
+    background-color: #ff8f35;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 25px;
+}
+
+.submitBtn:hover, .submitBtn-resend:hover {
+    cursor: pointer;
+    scale: 1.03;
+}
+
+table {
+  border-spacing: 10px 40px;
+}
+
+tbody {
+    background: white;
+}
+
+td {
+    align-content: center;
+    display: block;
+}
+
+.notNecesary {
+    opacity: 0.5;
+}
+
+tr {
+    width: 100%;
+}
+
+h1 {
+    text-align: center
+}
+
+.submitBtn-resend {
+    width: auto;
+}

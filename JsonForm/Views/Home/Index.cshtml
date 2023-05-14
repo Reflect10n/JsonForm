@@ -1,0 +1,38 @@
+﻿@model PersonData
+@{
+    ViewData["Title"] = "Запись данных в JSON";
+}
+
+@using (Html.BeginForm("SignUp", "Home", FormMethod.Post))
+{
+    <div class="tableForm">
+    <table class="personForm">
+        <tr class="tableElement">
+            <td><label asp-for="LastName"></label><span class="spanRequired">*</span></td>
+            <td><input asp-for="LastName" type="text" id="requiredField" name="LastName" placeholder="Фамилия" /> </td>
+            <td><span class="validation" asp-validation-for="LastName"></span></td>
+        </tr>
+        <tr class="tableElement">
+            <td><label asp-for="FirstName"></label><span class="spanRequired">*</span></td>
+            <td><input asp-for="FirstName" type="text" id="requiredField" name="FirstName" placeholder="Имя" /> </td>
+            <td><span class="validation" asp-validation-for="FirstName"></span></td>
+        </tr>
+        <tr class="tableElement">
+            <td><label asp-for="MiddleName"></label><i class="notNecesary"> - Необязательно</i></td>
+            <td><input asp-for="MiddleName" type="text" name="MiddleName" placeholder="Отчество" /> </td>
+            <td><span class="validation" asp-validation-for="MiddleName"></span></td>
+        </tr>
+        <tr class="tableElement">
+            <td><label asp-for="BirthDate"></label><span class="spanRequired">*</span></td>
+            <td><input class="date-control" id="BirthDate" asp-for="BirthDate" type="date" name="BirthDate" /> </td>
+            <td><span class="validation" asp-validation-for="BirthDate"></span></td>
+        </tr>
+        <tr class="submitElement">
+            <td><input type="submit" value="Записаться" class="submitBtn" /> </td>
+            <td></td>
+        </tr>
+    </table>
+    </div>
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="~/js/site.js"></script>

@@ -1,0 +1,12 @@
+﻿@model PersonData
+@{
+    ViewData["Title"] = "Успешно";
+}
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    <h1>Форма успешно отправлена</h1>
+    <div class="submitElement">
+    <button class="submitBtn-resend">Отправить ещё одну форму</button>
+    </div>
+}
